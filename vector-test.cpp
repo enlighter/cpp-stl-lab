@@ -11,7 +11,7 @@ int main()
 	{
 		if(*it > 3)
 		{
-			i.erase(it);
+			*it = i.back();
 		}
 		/*if(*it == 5)
 		{
