@@ -12,6 +12,7 @@ int main()
 		if(*it > 3)
 		{
 			*it = i.back();
+			i.pop_back();
 		}
 		/*if(*it == 5)
 		{
