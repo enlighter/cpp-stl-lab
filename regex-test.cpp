@@ -11,7 +11,7 @@ int main()
 	getline(cin, filename);
 	cout<<filename;
 
-	if(regex_match (filename, regex("\\w+\\.") ))
+	if(regex_match (filename, regex("(\\w+\\.*)*") ))
 		cout<<"matched";
 	else
 		cout<<"error";
