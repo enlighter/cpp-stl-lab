@@ -11,10 +11,10 @@ int main()
 	getline(cin, filename);
 	cout<<filename;
 
-	if(regex_match (filename, regex("(\\w+\\.*)*") ))
-		cout<<"matched";
+	if(regex_match (filename, regex("(\\w+\\.*)*\\w+") ))
+		cout<<"matched\n";
 	else
-		cout<<"error";
+		cout<<"error\n";
 
 	return 1;
 }
